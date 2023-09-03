@@ -1,4 +1,4 @@
-const analyzeArray = require('./analyzeArray');
+const analyzeArray = require('../scripts/analyzeArray');
 
 test('Returns an object with the properties medium, minimum, maximum and length', () => {
   expect(analyzeArray([3, 8, 10, 34, 66])).toEqual({

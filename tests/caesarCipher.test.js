@@ -1,4 +1,4 @@
-const caesarCipher = require('./caesarCipher');
+const caesarCipher = require('../scripts/caesarCipher');
 
 test('Returns a string with lowercase letters', () => {
   expect(caesarCipher('dog', 1)).toBe('eph');
